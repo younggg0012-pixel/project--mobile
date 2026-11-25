@@ -1,0 +1,14 @@
+#content .content_area{width: 94%; margin: 0 auto 60px; text-align: center; align-items: center;}
+#content .content_area h3{font-size: 1.8rem; font-weight: 600; text-align: center; }
+#content .content_area span{font-size: 1.4rem; font-weight: 500; color: var(--color-main); display: block; text-align: center; }
+#content .content_area ul{display: flex; flex-wrap:wrap; justify-content: center; margin-bottom: 50px;}
+#content .content_area ul li img{width: 100%; border-radius: 5px;}
+#content .content_area>ul>li {margin: 40px 0; background: #fff; border-radius: 5px; box-shadow: 1px 1px 8px 1px rgba(0, 0, 0, .1);}
+/* #content .content_area>ul>li:hover{transform: scale(1.02); box-shadow: 1px 1px 15px 1px rgba(0, 0, 0, .3);}     */
+#content .content_area strong{color:var(--color-main); margin-bottom: 3px; display: block;}
+#content .content_area dl{line-height: 1.7; font-size: 1.2rem; font-weight: 600; padding: 20px; box-sizing: border-box;}
+#content .content_area dt{text-align: justify;}
+#content .content_area dd{font-weight: 400; line-height: 1.5; text-align: justify;}
+#content .content_area .icon{display: flex; gap: 8px; justify-content: flex-start; margin-left: 15px; margin-bottom: 30px;}
+#content .content_area .icon li{background: #e60122;; border-radius: 20px; margin: 0; font-size: 1rem; color: #fff; padding: 8px; text-align: center; width: 20%;}
+

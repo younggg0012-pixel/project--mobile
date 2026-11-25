@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+/* index css */
+
+/* 메인 비주얼영역 */
+.visual{width: 100%;}
+.visual li{ position: relative; }
+.visual img{display: block; width: 100%;}
+.visual p{position: absolute; left: 20px; top: 45%; color: #fff; font-weight: 500; font-size: 2rem; line-height: 1.2; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); }
+.swiper-pagination-bullet-active{background:var(--color-main);}
+
+/* 본문 콘텐츠 영역 */
+
+#content .company{text-align: center; width: 100%; margin: 0 auto; margin-top: 50px;}
+#content h3{font-size: 2rem; font-weight: 600; color: #333;}
+#content .company .logo{color: var(--color-main); font-size: 1.2rem; font-weight: 500;}
+#content .company span{color: var(--color-main); font-weight: 500;}
+#content .company .text{width: 100%; }
+#content p{font-size: 1rem; font-weight: 400; color: #333; margin-top: 10px;}
+#content .company .more{display: block; border: 1px solid var(--color-main); margin: 20px auto; padding: 8px 0; text-align: justify;
+                    border-radius: 50px; width: 25%; color: var(--color-main); text-align: center; text-decoration: none;}
+
+#content .company .gallery{width: 100%; padding: 15px; border: 1px solid #ccc; margin: 20px auto; box-sizing: border-box;}
+#content .company .gallery ul{width: 100%;}
+
+#content .company .gallery .image li{display: none;}
+
+#content .company .gallery .image li img{width: 100%; display: block; object-fit: cover; border-radius: 3px;}
+
+#content .company .gallery .btn{overflow: hidden; margin-top: 8px;}
+#content .company .gallery .btn li{float: left; width: 25%; box-sizing: border-box; padding: 0 4px;}
+#content .company .gallery .btn li a{display: block; transition: all .5s;}
+#content .company .gallery .btn li a img{width: 100%; display: block; border-radius: 3px;}
+
+
+#content .brand{margin-top: 50px; text-align: center; background: #edf7ff51; padding: 30px 20px; overflow: hidden;}
+#content h3{font-size: 2rem; font-weight: 600; color: #333;}
+#content .brand .logo{color: var(--color-point1); font-size: 1.2rem; font-weight: 500;}
+#content .brand p{font-size: 1rem; font-weight: 400; color: #333; padding: 0 10px; margin-top: 10px;}
+#content .brand span{color: #256dad; font-weight: 500;}
+#content .brand ul{padding: 20px 0; }
+#content .brand li{background: #EDF7FF; border-radius:5px; box-shadow: var(--box-shadow1);
+                    box-sizing: border-box; text-align: center; padding: 20px 15px; height: auto;}
+#content .brand li span{font-size: 1.3rem; color: #333; display: block; margin-top: 15px;}
+#content .brand li .more{background: #fff; border-radius: 15px; font-weight: 500; padding: 7px 0; width: 40%; margin: 0 auto; margin-top: 8px; text-decoration: none; display: block; color: var(--color-point1);}
+#content .brand li img{display: block; width: 50%; height: auto; margin: 0 auto;}
+
+
+
+#content .social{text-align: center; margin-top: 50px;}
+#content h3{font-size: 2rem; font-weight: 600; color: #333;}
+#content .social .logo{color: var(--color-point3); font-size: 1.2rem; font-weight: 500;}
+#content .social .text p{font-size: 1.1rem; line-height: 1.5; color: #333; margin: 15px 0; text-align: justify;}
+#content .social span{color: var(--color-point3); font-weight: 500;}
+#content .social .tabs{ margin: 0 auto; gap:5px; display: flex; justify-content: center; margin: 20px 0 15px;}
+#content .social .more{display: block; border: 1px solid var(--color-point3);padding: 8px 2px;
+                    border-radius: 25px; color: var(--color-point3); text-align: center; width: 25%;}
+#content .social .tabs .active{ background:var(--color-point3) ; color: #fff;}
+#content .social .page1{padding: 15px;}
+#content .social img{width:100%; height:350px; border-radius: 5px; object-fit: cover; object-position: center;}
+#content .social .text{background: #e8f3ee; border-radius: 5px; padding: 10px; box-sizing: border-box; text-align: center;  margin: 10px auto;}
+#content .social h4{font-size: 1.5rem; font-weight: 600; color: #333; margin-top: 10px;}
+#content .social .detail{display: block; width: 50%; margin: 0 auto; border-radius: 55px; background: #f8f8f8; color: #333; text-decoration: none; padding: 10px 0; color: var(--color-point3); font-weight: 500;}
+
+#content .social .page2, #content .social .page3{padding: 10px;}
+
+
+#content .customer{text-align: center; margin-top: 50px; background: url('../images/main/customer.png') no-repeat center / cover; width: 100%; padding: 60px 0; box-sizing: border-box;}
+#content h3{font-size: 2rem; font-weight: 600; color: #333;}
+#content .customer .logo{color: var(--color-point2); font-size: 1.2rem; font-weight: 500;}
+#content .customer p{font-size: 1rem; font-weight: 400; color: #333; padding: 0 10px; margin-top: 10px;}
+#content .customer>span{color: #fc931a; font-weight: 500;}
+#content .customer ul{width: 100%; text-align: center; align-items: center; justify-content: center; gap: 30px; display: flex; flex-direction: column; width: 100%; margin: 30px 0;}
+#content .customer ul li{border: 1px solid var(--color-point2); box-sizing: border-box; box-shadow: var(--box-shadow1); width: 90%; 
+                         background: rgba(255,255,255,.3); backdrop-filter: blur(8px); border-radius: 15px; position: relative; }
+#content .customer a{padding: 30px; width: 100%; display: flex; justify-content: flex-start; align-items: center; gap: 15px;}
+#content .customer ul li a > :last-child{margin-left: 300px; position: absolute; right: 22px;}
+
+#content .customer ul li .svg-inline--fa {font-size: 2rem; font-weight: 500;}
+/* #content .customer ul li i :last-child{margin-left: auto;} */
+#content .customer ul li span{font-size: 1.5rem; font-weight: 500; }
+
+
+

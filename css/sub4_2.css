@@ -1,0 +1,14 @@
+.sub_menu ul li{width:50%;}
+
+#content .content_area{width: 94%; margin: 0 auto 60px; text-align: center; align-items: center; }
+#content .content_area h3{color: #333; font-weight: 600; font-size: 1.8rem; text-align: justify; }
+#content .content_area .hgroup a{font-size: 1rem; font-weight: 400; text-align: right;}
+#content .content_area .faq_content{margin: 20px 0;}
+#content .content_area .faq_content li{border-left: 3px solid var(--color-main); background: #eeeeee4c; box-shadow: var(--box-shadow1); box-sizing: border-box; border-radius: 5px; margin: 10px 0; padding: 15px;}
+#content .content_area .faq_content .q{display: flex; justify-content: space-between; align-items: center; margin: 0;  font-size: 1.2rem; font-weight: 500; color: #333; text-align: justify;}
+.faq_content .q span {align-items: center; justify-content: center;  flex-shrink: 0;  margin-left: 10px;}    
+#content .content_area .faq_content .a{font-size: 1rem; font-weight: 400; color: #333; padding: 10px 0 0; text-align: justify;}
+
+
+
+
